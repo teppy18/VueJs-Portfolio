@@ -24,7 +24,7 @@ export default {
   padding: 1rem;
   text-align: center;
   width: 100%;
-  margin-top: 20px; /* Adds space between content and footer */
+  margin-top: 20px;
 }
 
 .footer-content {
@@ -46,6 +46,6 @@ export default {
 }
 
 .footer-social a:hover {
-  color: #f39c12; /* Hover color */
+  color: #f39c12; 
 }
 </style>
