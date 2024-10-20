@@ -1,11 +1,11 @@
 <template>
   <nav class="navbar">
-    <!-- Logo or Title of the portfolio -->
+   
     <div class="navbar-logo">
       <h1>My Portfolio</h1>
     </div>
 
-    <!-- Navigation Links -->
+    
     <ul class="navbar-links">
       <li>
         <router-link to="/portfolio/profile">Profile</router-link>
@@ -20,7 +20,7 @@
         <router-link to="/portfolio/creative">Creative</router-link>
       </li>
       <li>
-        <router-link to="/login">Logout</router-link> <!-- Logout or Login link -->
+        <router-link to="/login">Logout</router-link> 
       </li>
     </ul>
   </nav>
@@ -33,7 +33,7 @@ export default {
 </script>
 
 <style scoped>
-/* Styles for the Navbar */
+
 .navbar {
   background-color: #333;
   padding: 1rem;
